@@ -40,7 +40,7 @@ public class EmojiShooter {
     private boolean shootDown = false;
     private boolean shootEdge = false;
 
-    private PIDController controller = new PIDController(0.06, 0, 0.01);
+    private PIDController controller = new PIDController(0, 0, 0);
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new EmojiShooter().createAndShowGui());
