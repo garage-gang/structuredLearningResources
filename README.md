@@ -8,3 +8,4 @@ These lessons each contain a set of slides and a hands-on demo using the skills 
 2. git Basics
 3. Controls Basics
 4. Java Intermediate
+5. Software Tools
